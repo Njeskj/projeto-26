@@ -10,8 +10,8 @@ include 'includes/nav.php';
                 <h2>Registrar</h2>
                 <form action="register2.php" method="post">
                     <div class="mb-3">
-                        <label for="nome" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="nome" required>
+                        <label for="username" class="form-label">usuario</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
