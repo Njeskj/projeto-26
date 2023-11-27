@@ -1,0 +1,27 @@
+footer {
+    color: #fff; /* Cor do texto */
+    margin-top: 20px;
+}
+
+#logo {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+.landing-space {
+    height: 50vh; /* Define a altura da imagem em 100% da altura da viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-img {
+    background-image: url('caminho/para/sua/imagem.jpg');
+}
