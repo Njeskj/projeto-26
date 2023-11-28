@@ -1,4 +1,4 @@
-# projeto-26
+# Projeto-26 - Legendaria
 Projeto de Jogo Online RTS
 Nome: Legendaria
 Desenvolvedor: Israel Macedo (NJ - Eu :grin: )
