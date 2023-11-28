@@ -10,7 +10,7 @@ include 'includes/nav.php';
                 <h1>Bem-vindo ao <span id='logo'>LEGENDARIA</span>!</h1>
                 <p><span id='frase-container'></span></p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <form action="processar_inscricao.php" method="post">
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome</label>

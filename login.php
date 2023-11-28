@@ -24,7 +24,7 @@ include 'includes/nav.php';
                         <label for="senha" class="form-label">Senha</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <button type="submit" class="btn btn-primary">Entrar</button>
+                    <button type="submit" class="btn btn-primary btn-block">Entrar</button>
                 </form>
             </div>
         </div>

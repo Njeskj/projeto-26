@@ -7,6 +7,12 @@ footer {
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'Cinzel', serif;
     text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.img-logo-header {
+    width: 50px;
+    height: auto;
 }
 
 .landing-space {
@@ -24,4 +30,28 @@ footer {
 
 .main-img {
     background-image: url('caminho/para/sua/imagem.jpg');
+}
+
+
+
+
+
+/* ========================== */
+/* ==== CSS DOCUMENTAÇÃO ==== */
+/* ========================== */
+.doc-titulo {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: brown;
+    border-bottom: 1px brown solid;
+}
+
+
+.doc-sub {
+    
+}
+
+
+.doc-li {
+        margin-bottom: 10px;
 }

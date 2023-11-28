@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Verificar se as senhas coincidem
     if ($password !== $confirm_password) {
-        die("Erro: As senhas não coincidem.");
+        die("Erro: Senhas diferentes.");
     }
 
     // Verificar se o usuário já existe

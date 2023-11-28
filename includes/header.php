@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos Online</title>
+    <title>Legendaria</title>
+
+    <!-- CSS ICON -->
+    <link rel="icon" href="img/icon/icon01.ico" type="image/x-icon">
 
     <!-- CSS BOOTSTRAP -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -23,6 +26,6 @@
 
     <header class="bg-light">
         <div class="container text-center">
-            <h1 class="display-4" id='logo'>legendaria</h1>
+            <h1 class="display-3" id='logo'><img class="img-logo-header" src="img/sword01.png">legendaria</h1>
         </div>
     </header>
