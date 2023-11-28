@@ -1,5 +1,4 @@
 # projeto-26
-<<<<<<< HEAD
 Projeto de Jogo Online RTS
 Nome: Legendaria
 Desenvolvedor: Israel Macedo (NJ - Eu :grin: )
@@ -16,7 +15,3 @@ https://github.com/Njeskj/projeto-26
 
 Entra em contato caso queira ajudar no projeto
 Contato -> https://bit.ly/IsraelMacedo
-=======
-Projeto de Jogo online com sistema RTS v0.1
-
->>>>>>> 005017ce35cdc119c7afc2d6d46d7369bac53514
