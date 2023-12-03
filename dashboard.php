@@ -13,13 +13,12 @@ include 'includes/nav_dashboard.php';
   
 
     <!-- Conteúdo da dashboard -->
-    <div class="container mt-5">
+    <div class="container mt-5 dash">
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <!-- <h5 class="card-title">Bem-vindo, <?php echo $_SESSION['username']; ?>!</h5> -->
-                        
+                        <!-- Conteúdo da Dashboard -->
                         <div id="recursos">
                             <h5>Recursos</h5>
                             <p id="recursos_ouro"></p>
@@ -66,9 +65,6 @@ include 'includes/nav_dashboard.php';
                             <p id="troca_recursos_em_andamento"></p>
                             <p id="tempo_troca_recursos"></p>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>

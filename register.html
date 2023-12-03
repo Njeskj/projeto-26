@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucesso!</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro bem-sucedido!</h1>
+    <p>Você será redirecionado em... <span id="countdown">5</span> segundos...</p>
+
+    <script>
+        // Função para atualizar a contagem regressiva e redirecionar após 5 segundos
+        function countdown() {
+            var seconds = 5;
+            var countdownElement = document.getElementById('countdown');
+
+            var countdownInterval = setInterval(function() {
+                seconds--;
+                countdownElement.textContent = seconds;
+
+                if (seconds <= 0) {
+                    clearInterval(countdownInterval);
+                    // Redirecionar para outra página após 5 segundos
+                    window.location.href = 'login.php';
+                }
+            }, 1000);
+        }
+
+        // Chamar a função de contagem regressiva ao carregar a página
+        window.onload = countdown;
+    </script>
+</body>
+</html>

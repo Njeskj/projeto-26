@@ -10,12 +10,12 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="index.php">Início</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Perfil</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.php">Aldeia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Configurações</a>
-                    </li> -->
+                        <a class="nav-link" href="doc.php">Documentação</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="logout.php">Sair</a>
                     </li>

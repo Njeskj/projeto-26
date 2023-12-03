@@ -1,6 +1,11 @@
 footer {
     color: #fff; /* Cor do texto */
-    margin-top: 20px;
+    /* margin-top: 20px; */
+}
+
+/* CSS REGISTRO */
+.btn {
+    margin-bottom: 20px;
 }
 
 #logo {
@@ -22,17 +27,44 @@ footer {
     justify-content: center;
 }
 
+.landing-space2 {
+    background-image: url('https://images6.alphacoders.com/125/1250656.jpg'); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    padding: 100px 0; /* Adapte o espaçamento interno conforme necessário */
+}
+
+.landing-space2 h2 {
+    border: 1px solid brown;
+    text-align: center;
+    color: white;
+    background-color: rgba(165, 42, 42, 0.5)
+}
+
+.landing-space2 p {
+    text-align: center;
+    color: white;
+    text-shadow: 8px 8px 10px rgba(165, 42, 42, 0.8);
+}
+
 .card {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.main-img {
-    background-image: url('caminho/para/sua/imagem.jpg');
+.wallpaper-index {
+    /* width: clamp(300px, 90%, 800px); */
+    width: 80vh;
+    height: auto;
+    border-radius: 10%;
+    border: 5px solid brown;
 }
 
-
+.dash {
+    padding-bottom: 30px;
+}
 
 
 

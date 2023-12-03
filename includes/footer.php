@@ -18,7 +18,8 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <p class="text-light">&copy; Legendaria <?php echo date('Y'); ?><br>Todos os Direitos Reservados</p>
+                <p class="text-light">
+                <a href="index.php" class="text-light">&copy; Legendaria <?php echo date('Y'); ?></a><br>Todos os Direitos Reservados</p>
             </div>
         </div>
     </div>

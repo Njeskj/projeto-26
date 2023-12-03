@@ -3,6 +3,7 @@ require_once('db.php'); // Certifique-se de ter o arquivo db.php configurado cor
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
+    $email = $_POST['email'];
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
@@ -21,10 +22,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Inserir o novo usuário no banco de dados
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-    $insert_user_query = "INSERT INTO users (username, password) VALUES ('$username', '$hashed_password')";
+    $insert_user_query = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashed_password')";
 
     if ($conn->query($insert_user_query) === TRUE) {
-        echo "Cadastro bem-sucedido!";
+        // Redirecionar para a página desejada após o cadastro bem-sucedido
+        header('Location: register.html');
+        exit();
     } else {
         echo "Erro ao cadastrar o usuário: " . $conn->error;
     }
