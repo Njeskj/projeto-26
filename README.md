@@ -2,8 +2,8 @@
 Projeto de Jogo Online RTS<br>
 Nome: Legendaria<br>
 Desenvolvedor: Israel Macedo (NJ - Eu :grin: )<br>
-Linguagens: HTML / CSS / JAVASCRIPT / PHP / JSON / SQL / TXT<br>
-Frameworks: BOOTSTRAP / AJAX / MySQL<br><br>
+Linguagens: HTML / CSS / JAVASCRIPT / PHP / JSON / MYSQL / TXT<br>
+Frameworks: BOOTSTRAP / AJAX<br><br>
 
 Sobre:<br>
 Legendaria será um jogo baseado em Browser RTS, com batalhas PVP e PVE multiplayer, contará com sistema de recursos, aldeias, tropas e mapa. O jogador terá uma dashboard de onde controlará todas as ações de sua conta.<br><br>
