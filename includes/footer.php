@@ -29,6 +29,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/frases_index.js"></script>
 <script src="assets/js/dashboard.js"></script>
+<!-- <script src="assets/js/landingspace2.js"></script> -->
 
 <!-- CSS BOOTSTRAP -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

@@ -28,11 +28,13 @@ footer {
 }
 
 .landing-space2 {
-    background-image: url('https://images6.alphacoders.com/125/1250656.jpg'); /* Substitua pelo caminho real da sua imagem */
+    background-image: url('https://raw.githubusercontent.com/Njeskj/projeto-26/main/img/wallpaper-index-0002.jpg'); /* Substitua pelo caminho real da sua imagem */
     background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento */
     background-position: center; /* Centraliza a imagem de fundo */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     padding: 100px 0; /* Adapte o espaçamento interno conforme necessário */
+    z-index: -10;
+    height: 100dvh;
 }
 
 .landing-space2 h2 {

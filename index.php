@@ -3,7 +3,7 @@ include 'includes/header.php';
 include 'includes/nav.php';
 ?>
 
-<div class=" landing-space2">
+<div class="landing-space2">
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
