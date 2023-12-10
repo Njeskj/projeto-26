@@ -14,11 +14,15 @@
 
     <!-- CSS PESSOAL -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/recursos.css">
 
     <!-- GOOGLE FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Cinzel:wght@900&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/6af50ab3e2.js" crossorigin="anonymous"></script>
     
 </head>
 

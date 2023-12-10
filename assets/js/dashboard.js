@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    function obterDadosDashboard() {
+    function obterDadosAldeia() {
         $.ajax({
-            url: 'obter_dados_dashboard.php',
+            url: 'dados_aldeia.php',
             type: 'GET',
             dataType: 'json',
             success: function(data) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
                 $('#tempo_troca_recursos').text('Tempo para Troca de Recursos: ' + data.tempo_troca_recursos);
 
                 // Chame a função novamente após um intervalo (atualização automática)
-                setTimeout(obterDadosDashboard, 5000); // Atualize a cada 5 segundos (ajuste conforme necessário)
+                setTimeout(obterDadosAldeia, 5000); // Atualize a cada 5 segundos (ajuste conforme necessário)
             },
             error: function(error) {
                 console.log('Erro na requisição AJAX: ' + JSON.stringify(error));
@@ -39,5 +39,5 @@ $(document).ready(function() {
     }
 
     // Chame a função para a primeira solicitação de dados
-    obterDadosDashboard();
+    obterDadosAldeia();
 });
