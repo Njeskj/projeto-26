@@ -50,6 +50,11 @@ footer {
     text-shadow: 8px 8px 10px rgba(165, 42, 42, 0.8);
 }
 
+.soldier {
+    width: auto;
+    height: 80%;
+}
+
 .card {
     border: 1px solid #ddd;
     border-radius: 10px;
