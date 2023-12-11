@@ -8,7 +8,8 @@ Frameworks: BOOTSTRAP / AJAX<br><br>
 Sobre:<br>
 Legendaria será um jogo baseado em Browser RTS, com batalhas PVP e PVE multiplayer, contará com sistema de recursos, aldeias, tropas e mapa. O jogador terá uma dashboard de onde controlará todas as ações de sua conta.<br><br>
 
-Data de Início: 26/11/2023<br><br>
+Data de Início: 2023-11-26<br>
+Última Atualização: 2023-12-11<br><br>
 
 Repositório GitHub:<br>
 https://github.com/Njeskj/projeto-26<br><br>
