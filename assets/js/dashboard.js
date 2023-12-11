@@ -41,3 +41,51 @@ $(document).ready(function() {
     // Chame a função para a primeira solicitação de dados
     obterDadosAldeia();
 });
+
+$(document).ready(function () {
+    // Função para obter e exibir os edifícios do usuário
+    function obterEdificiosUsuario() {
+        $.ajax({
+            url: 'obter_edificios.php', // Substitua pelo script que obtém os edifícios do usuário
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                // Limpar a lista de edifícios antes de atualizar
+                $('#lista_edificios').empty();
+
+                // Adicionar cada edifício à lista
+                data.forEach(function (edificio) {
+                    $('#lista_edificios').append('<li>' + edificio.nome + ' - Nível ' + edificio.nivel + '</li>');
+                });
+            },
+            error: function (error) {
+                console.log('Erro na requisição AJAX: ' + JSON.stringify(error));
+            }
+        });
+    }
+
+    // Chamar a função para obter edifícios ao carregar a página
+    obterEdificiosUsuario();
+
+    // Manipular o envio do formulário para criar um novo edifício
+    $('#form_criar_edificio').submit(function (event) {
+        event.preventDefault();
+
+        // Obter o nome do edifício do formulário
+        var nomeEdificio = $('#nome_edificio').val();
+
+        // Enviar a solicitação para criar um novo edifício
+        $.ajax({
+            url: 'criar_edificios.php',
+            type: 'POST',
+            data: { nome_edificio: nomeEdificio },
+            success: function () {
+                // Atualizar a lista de edifícios após a criação
+                obterEdificiosUsuario();
+            },
+            error: function (error) {
+                console.log('Erro na requisição AJAX: ' + JSON.stringify(error));
+            }
+        });
+    });
+});

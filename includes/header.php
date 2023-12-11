@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,7 @@
     <!-- CSS PESSOAL -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/recursos.css">
+    <link rel="stylesheet" href="assets/css/update.css">
 
     <!-- GOOGLE FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

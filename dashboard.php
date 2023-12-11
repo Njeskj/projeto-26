@@ -28,6 +28,7 @@ if ($result->num_rows > 0) {
 
 include 'includes/header.php';
 include 'includes/nav_dashboard.php';
+include 'includes/recursos.php';
 ?>
 
 <body class="bg-light">
@@ -38,33 +39,21 @@ include 'includes/nav_dashboard.php';
     <div class="container mt-5 dash">
         <div class="row">
             <div class="col-md-12">
+
+            
+
                 <div class="card">
                     <div class="card-body">
 
-                        <!-- Conteúdo da Dashboard -->
-                        <div class="resource-container">
-                            <div class="resource">
-                            <span id="populacao"><i class="fa-solid fa-users"></i> <?php echo $aldeia['populacao']; ?></span>
-                            </div>
-                            <div class="resource">
-                            <span id="recursos_ouro"><i class="fa-solid fa-coins"></i> <?php echo $aldeia['recursos_ouro']; ?></span>
-                            </div>
-                            <div class="resource">
-                            <span id="recursos_madeira"><i class="fa-solid fa-tree"></i> <?php echo $aldeia['recursos_madeira']; ?></span>
-                            </div>
-                            <div class="resource">
-                            <span id="recursos_pedra"><i class="fa-solid fa-hill-rockslide"> </i><?php echo $aldeia['recursos_pedra']; ?></span>
-                            </div>
-                            <div class="resource">
-                            <span id="recursos_comida"><i class="fa-solid fa-wheat-awn"></i> <?php echo $aldeia['recursos_comida']; ?></span>
-                            </div>
-                        </div>
-
-                        <div id="edificios">
-                            <h5>Níveis de Edifícios</h5>
-                            <p id="nivel_quartel"></p>
-                            <p id="nivel_fazenda"></p>
-                            <!-- Adicione mais conforme necessário -->
+                        <!-- Seção de Edifícios -->
+                        <div id="edificios_usuario">
+                            <h5>Edifícios</h5>
+                            <ul>
+                                <li><a href="edificio.php?tipo=Quartel">Quartel</a></li>
+                                <li><a href="edificio.php?tipo=Doca">Doca</a></li>
+                                <li><a href="edificio.php?tipo=Doca">Construir Edifício</a></li>
+                                <!-- Adicione mais edifícios conforme necessário -->
+                            </ul>
                         </div>
 
                         <div id="tropas">

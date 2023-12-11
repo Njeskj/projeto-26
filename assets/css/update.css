@@ -1,0 +1,10 @@
+#updateContent {
+    height: 100%;
+}
+
+iframe {
+    text-align: center;
+    width: 100%;
+    height: calc(50vh - 40px); /* Subtrai a altura do título e margens do iframe */
+    border: none;
+}
